@@ -7,8 +7,8 @@ export default function AuthLayout({
 }) {  
   return (
     <>
-      <Header nav={false} />
-
+    
+<Header/>
       <main className="grow bg-gray-50">
         <section>
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
