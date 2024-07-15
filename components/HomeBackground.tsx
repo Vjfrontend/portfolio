@@ -2,8 +2,12 @@
 import { SpringValue } from "@react-spring/web";
 import DottedLine from "@/components/background/DottedLine";
 import HorizontalDottedLine from "@/components/background/HorizontalDottedLine";
-import HomeBackgroundProps from"./props";
+
 import { animationOrder } from "@/components/data/home-background";
+interface HomeBackgroundProps {
+  glowBackground: any; // Define the type for glowBackground
+  revealBackground: any; // Define the type for revealBackground
+}
 
 export default function HomeBackground({
   glowBackground,
