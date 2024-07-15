@@ -5,8 +5,8 @@ import HorizontalDottedLine from "@/components/background/HorizontalDottedLine";
 
 import { animationOrder } from "@/components/data/home-background";
 interface HomeBackgroundProps {
-  glowBackground: any; // Define the type for glowBackground
-  revealBackground: any; // Define the type for revealBackground
+  glowBackground: any; 
+  revealBackground: any;
 }
 
 export default function HomeBackground({
