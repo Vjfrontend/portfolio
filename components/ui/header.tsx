@@ -47,7 +47,7 @@ import MobileMenu from "./mobile-menu"; // Ensure this component is properly imp
 
 const Header = () => {
   return (
-    <header className="absolute z-30 bg-transparent rounded-md top-5 shadow-sm w-full">
+    <header className="fixed z-30 bg-inherit rounded-md top-0 shadow-sm w-full">
       <div className="px-4 sm:px-6 mx-auto">
         <div className="flex items-center justify-between h-16 md:h-20">
           <svg

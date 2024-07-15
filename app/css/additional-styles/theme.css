@@ -157,7 +157,7 @@
     @apply bg-blue-400;
 }
 
-@keyframes color-change {
+/* @keyframes color-change {
     0% {
         filter: hue-rotate(0deg);
     }
@@ -174,7 +174,7 @@
 
 .animate-color-change {
     animation: color-change 5s linear infinite;
-}
+} */
 
 /* .hexagon {
     width: 100px;
@@ -208,3 +208,4 @@
       transform: translateY(0);
     }
   } */
+  
