@@ -7,6 +7,8 @@ import 'aos/dist/aos.css'
 
 import Header from '@/components/ui/header'
 import Footer from '@/components/ui/footer'
+import { Analytics } from '@vercel/analytics/react';
+
 
 export default function DefaultLayout({
   children,
@@ -30,7 +32,7 @@ export default function DefaultLayout({
       <main className="grow">
 
         {children}
-
+        <Analytics mode={'production'} />;
       </main>
 
       <Footer />

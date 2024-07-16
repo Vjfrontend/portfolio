@@ -3,6 +3,7 @@ import './css/style.css'
 
 import { Inter, } from 'next/font/google'
 import { Aboreto } from 'next/font/google'
+import { Analytics } from "@vercel/analytics/react"
 
 import localFont from 'next/font/local'
 
@@ -52,6 +53,7 @@ export default function RootLayout({
       <body className={`${inter.variable} ${cabinet.variable}${aboreto.variable} font-inter antialiased bg-white text-gray-800 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden">
           {children}
+          <Analytics mode={'production'} />;
         </div>
       </body>
     </html>
