@@ -136,7 +136,7 @@ const ContactForm = () => {
                   </div>
                 </div>
                 <div className="ml-14 ">
-                  <h3 className="text-lg ">CALL US</h3>
+                  <h3 className="text-lg ">CALL </h3>
                   <p>
                   07061728371
                    
@@ -164,26 +164,10 @@ const ContactForm = () => {
   </a>
 </div>
 
-              {/* <div className="mt-16 absolute">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  fill="#"
-                  viewBox="0 0 256 256"
-                >
-                  <path d="M128,64a40,40,0,1,0,40,40A40,40,0,0,0,128,64Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,128,128Zm0-112a88.1,88.1,0,0,0-88,88c0,31.4,14.51,64.68,42,96.25a254.19,254.19,0,0,0,41.45,38.3,8,8,0,0,0,9.18,0A254.19,254.19,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25A88.1,88.1,0,0,0,128,16Zm0,206c-16.53-13-72-60.75-72-118a72,72,0,0,1,144,0C200,161.23,144.53,209,128,222Z"></path>
-                </svg>
-              </div> */}
-              {/* <div className="ml-14">
-                <h3 className="text-lg">VISIT US</h3>
-                <p>
-                84,Ifelere phase 2,gaa akanbi ilorin.
-                </p>
-              </div> */}
-              <div className="lg:ml-12 ml-6 mt-6">
-                <h3 className="text-lg ">FOLLOW ME ON</h3>
-                <div className="flex space-x-4  mt-4 mb-4 ">
+{/*              
+              <div className=" mt-6">
+                <h3 className="text-lg text-center ">FOLLOW ME ON</h3>
+                <div className="flex space-x-4  mt-4 mb-4  justify-center">
                   <Link href="https://x.com/thedev216509" target="blank" className="text-2xl">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -195,17 +179,7 @@ const ContactForm = () => {
                       <path d="M214.75,211.71l-62.6-98.38,61.77-67.95a8,8,0,0,0-11.84-10.76L143.24,99.34,102.75,35.71A8,8,0,0,0,96,32H48a8,8,0,0,0-6.75,12.3l62.6,98.37-61.77,68a8,8,0,1,0,11.84,10.76l58.84-64.72,40.49,63.63A8,8,0,0,0,160,224h48a8,8,0,0,0,6.75-12.29ZM164.39,208,62.57,48h29L193.43,208Z"></path>
                     </svg>
                   </Link>
-                  {/* <a href="#" className="text-2xl">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="32"
-                      height="32"
-                      fill="#"
-                      viewBox="0 0 256 256"
-                    >
-                      <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"></path>
-                    </svg>
-                  </a> */}
+                 
                   <a href="https://www.instagram.com/dev_vj001/" target="blank" className="text-2xl">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -217,7 +191,7 @@ const ContactForm = () => {
                       <path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path>
                     </svg>
                   </a>
-                  <a href="https://www.linkedin.com/in/victor-ezeabikwa-51219a27a" target="blank" className="text-2xl">
+                  <a href="" target="blank" className="text-2xl">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="32"
@@ -229,7 +203,7 @@ const ContactForm = () => {
                     </svg>
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
