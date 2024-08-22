@@ -69,7 +69,7 @@ const Header = () => {
                   HOME
                 </Link>
               </li>
-              <div className="flex mt-2">
+              
                 <li>
                   <Link
                     className="font-medium text-sm text-gray-500 border-b-2 border-transparent hover:border-b-blue-500 pr-1  transition duration-150 ease-in-out"
@@ -78,18 +78,8 @@ const Header = () => {
                     ABOUT ME
                   </Link>
                 </li>
-                <li className="">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="20"
-                    height="32"
-                    fill="#B3BEB7"
-                    viewBox="0 0 256 256"
-                  >
-                    <path d="M181.66,170.34a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-48-48a8,8,0,0,1,11.32-11.32L128,212.69l42.34-42.35A8,8,0,0,1,181.66,170.34Zm-96-84.68L128,43.31l42.34,42.35a8,8,0,0,0,11.32-11.32l-48-48a8,8,0,0,0-11.32,0l-48,48A8,8,0,0,0,85.66,85.66Z"></path>
-                  </svg>
-                </li>
-              </div>
+                
+              
               <li>
                 <Link
                   className="font-medium text-sm text-gray-500 border-b-2 border-transparent hover:border-b-blue-500 mx-4 lg:mx-5 transition duration-150 ease-in-out"

@@ -41,7 +41,7 @@ export default function MobileMenu() {
         onClick={() => setMobileNavOpen(!mobileNavOpen)}
       >
         <span className="sr-only">Menu</span>
-        <svg className="w-5 h-5 fill-current text-slate-300 hover:text-white transition duration-150 ease-in-out" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <svg className="w-5 h-5 fill-current text-black  transition duration-150 ease-in-out" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
           <rect y="2" width="20" height="2" rx="1" />
           <rect y="9" width="20" height="2" rx="1" />
           <rect y="16" width="20" height="2" rx="1" />
@@ -52,25 +52,23 @@ export default function MobileMenu() {
       <nav
         id="mobile-nav"
         ref={mobileNav}
-        className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
+        className="absolute top-full z-20 left-0 w-full   overflow-hidden transition-all duration-300 ease-in-out"
         style={mobileNavOpen ? { maxHeight: mobileNav.current?.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: 0.8 }}
       >
-        <ul className="border border-transparent [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] rounded-lg px-4 py-1.5">
+        <ul className="border border-transparent w-full backdrop-blur bg-white/60  px-4 py-1.5">
           <li>
-            <Link className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="/about">About</Link>
+            <Link className="flex font-medium text-sm text-black hover:text-white py-1.5" href="/about">HOME</Link>
           </li>
           <li>
-            <Link className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="/integrations">Integrations</Link>
+            <Link className="flex font-medium text-sm text-black hover:text-white py-1.5" href="/integrations">ABOUT</Link>
           </li>
           <li>
-            <Link className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="/pricing">Pricing</Link>
+            <Link className="flex font-medium text-sm text-black hover:text-white py-1.5" href="/pricing">PROJUCT</Link>
           </li>
           <li>
-            <Link className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="/customers">Customers</Link>
+            <Link className="flex font-medium text-sm text-black hover:text-white py-1.5" href="/customers">CONTACT</Link>
           </li>
-          <li>
-            <Link className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="/changelog">Changelog</Link>
-          </li>
+         
         </ul>
       </nav>
     </div>
