@@ -45,7 +45,7 @@ function MyWorks() {
           </div>
           <div className="w-full md:w-1/2 px-8 py-3">
             <h2 className="text-xl font-semibold">Infinity Gem</h2>
-            <p className="text-gray-600">Ed-tech platform dedicated to helping early tech talent ,to  find a perfect and confortable ground in  the digital world  </p>
+            <p className="text-gray-600 flex">An Ed-tech platform dedicated to helping early tech talent find the perfect and comfortable foundation in the digital world.  </p>
             <div className="mt-4">
               <Link
                 href="https://ig.bluehouseng.com/" target='blank'

@@ -31,7 +31,7 @@ function About() {
             My goal is to deliver, through code, unique and innovative solutions
             to complex problems. If my portfolio interests you, or you need an
             enthusiastic developer on your team,{" "}
-            <Link href="#" className="text-blue-500 underline">
+            <Link href="mailto:victorezeabikwa@gmail.com" className="text-blue-500 underline">
               I am available for hire.
             </Link>
           </p>
