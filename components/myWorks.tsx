@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 // function MyWorks() {
@@ -63,24 +64,24 @@ import React from 'react';
 function MyWorks() {
   const projects = [
     {
-      title: "Fashion Studio Website",
-      description: "With Smooth Animations",
-      image: "images/carousel-02.jpg", // Replace with your image path
-      link: "#",
+      title: "Marbstore",
+      description: "E-commerce website ",
+      image: "images/Capture 1.png", // Replace with your image path
+      link: "https://www.marbstores.com/",
       type: "Website",
     },
     {
-      title: "Portfolio Website",
-      description: "Showcase Your Work",
-      image: "images/carousel-02.jpg", // Replace with your image path
-      link: "#",
+      title: "OOCF",
+      description: "NGO dedicated to helping little kids ",
+      image: "images/Capture 2.png", // Replace with your image path
+      link: "https://www.oluwoleoloruntobicarefoundation.org/",
       type: "Website",
     },
   ];
 
   return (
-    <div className="container mx-auto max-w-[80%] px-4 py-8 mb-20">
-      <h1 className="text-3xl font-bold text-center mb-8">My Projects</h1>
+    <div className="container mx-auto max-w-[80%] px-4 py-8 mb-20 ">
+      <h1 className="text-3xl font-bold text-center mb-12">Featured ptojects</h1>
       
       {/* Big Card */}
       <div className="relative p-6 bg-white rounded-xl shadow-lg border-b-8 border-r-8 border-t-2 border-l-2 border-black transform hover:scale-105 transition-transform duration-300 ease-in-out mb-8">
@@ -89,20 +90,20 @@ function MyWorks() {
           <div className="w-full md:w-1/2 pr-4">
             <img
               className="w-full h-48 md:h-auto rounded-md object-cover object-center"
-              src="images/carousel-02.jpg" // Replace with your image path
+              src="images/Capture.png" // Replace with your image path
               alt="NFT Collection Website"
             />
           </div>
           <div className="w-full md:w-1/2 px-8 py-3">
-            <h2 className="text-xl font-semibold">NFT Collection Website</h2>
-            <p className="text-gray-600">Discover A New Era Of Cool</p>
+            <h2 className="text-xl font-semibold">Infinity Gem</h2>
+            <p className="text-gray-600">Ed-tech platform dedicated to helping early tech talent ,to  find a perfect and confortable ground in  the digital world  </p>
             <div className="mt-4">
-              <a
-                href="#"
+              <Link
+                href="https://ig.bluehouseng.com/" target='blank'
                 className="inline-flex items-center px-4 py-2 bg-black text-white font-semibold rounded-md shadow-md hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800"
               >
                 Visit Project
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -129,17 +130,22 @@ function MyWorks() {
               <h2 className="text-xl font-semibold">{project.title}</h2>
               <p className="text-gray-600">{project.description}</p>
               <div className="mt-4">
-                <a
-                  href={project.link}
-                  className="text-blue-500 hover:underline"
-                >
-                  Visit
-                </a>
+              <Link
+                href="#"
+                target='blank'
+                className="inline-flex items-center px-4 py-2 bg-black text-white font-semibold rounded-md shadow-md hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800"
+              >
+                Visit Project
+              </Link>
               </div>
             </div>
           </div>
         ))}
       </div>
+      <button className='bg-black rounded-md text-center border-2 border-white text-white mt-14 p-2 px-4 flex justify-center lg:ml-[45%]  ml-[30%]'>
+
+      see more
+      </button>
       </div>
   );
 }

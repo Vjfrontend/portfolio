@@ -89,7 +89,7 @@ import { a, to, useTrail } from "@react-spring/web";
 import Image from "next/image";
 import bg from "@/public/images/Meteor 1.svg";
 import HomeBackground from "./HomeBackground";
-import pc from "@/public/images/testimonial-01.jpg";
+import pc from "@/public/images/WhatsApp Image 2024-07-09 at 12.01.48_0f598099.jpg";
 
 
 import Link from "next/link";
