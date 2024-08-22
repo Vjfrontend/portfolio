@@ -57,16 +57,16 @@ export default function MobileMenu() {
       >
         <ul className="border border-transparent w-full backdrop-blur bg-white/60  px-4 py-1.5">
           <li>
-            <Link className="flex font-medium text-sm text-black hover:text-white py-1.5" href="/about">HOME</Link>
+            <Link className="flex font-medium text-sm text-black hover:text-white py-1.5" href="#home">Home</Link>
           </li>
           <li>
-            <Link className="flex font-medium text-sm text-black hover:text-white py-1.5" href="/integrations">ABOUT</Link>
+            <Link className="flex font-medium text-sm text-black hover:text-white py-1.5" href="#about">About</Link>
           </li>
           <li>
-            <Link className="flex font-medium text-sm text-black hover:text-white py-1.5" href="/pricing">PROJUCT</Link>
+            <Link className="flex font-medium text-sm text-black hover:text-white py-1.5" href="#works">Project</Link>
           </li>
           <li>
-            <Link className="flex font-medium text-sm text-black hover:text-white py-1.5" href="/customers">CONTACT</Link>
+            <Link className="flex font-medium text-sm text-black hover:text-white py-1.5" href="#contact">Contact</Link>
           </li>
          
         </ul>

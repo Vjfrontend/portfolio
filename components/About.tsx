@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function About() {
   return (
-    <div className="mb-20">
+    <div className="mb-20" id="about">
 
     <div className="container mx-auto px-4 py-8">
         <h1 className="flex  justify-center bold text-2xl mb-5 text-blue-500">ABOUT ME</h1>

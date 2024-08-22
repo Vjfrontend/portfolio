@@ -64,7 +64,7 @@ const Header = () => {
               <li>
                 <Link
                   className="font-medium text-sm text-gray-500 border-b-2 border-transparent hover:border-b-blue-500 mx-4 lg:mx-5 transition duration-350 ease-in-out group-hover:w-full translate-[width] ease duration-300"
-                  href="#"
+                  href="#home"
                 >
                   HOME
                 </Link>
@@ -73,7 +73,7 @@ const Header = () => {
                 <li>
                   <Link
                     className="font-medium text-sm text-gray-500 border-b-2 border-transparent hover:border-b-blue-500 pr-1  transition duration-150 ease-in-out"
-                    href="#"
+                    href="#about"
                   >
                     ABOUT ME
                   </Link>
@@ -83,7 +83,7 @@ const Header = () => {
               <li>
                 <Link
                   className="font-medium text-sm text-gray-500 border-b-2 border-transparent hover:border-b-blue-500 mx-4 lg:mx-5 transition duration-150 ease-in-out"
-                  href="#"
+                  href="#works"
                 >
                   PROJECT
                 </Link>
@@ -91,14 +91,14 @@ const Header = () => {
               <li>
                 <Link
                   className="font-medium text-sm text-gray-500 border-b-2 border-transparent hover:border-b-blue-500 mx-4 lg:mx-5 transition duration-150 ease-in-out"
-                  href="#"
+                  href="#contact"
                 >
                   CONTACT ME
                 </Link>
               </li>
               <li>
                 <Link
-                  className="font-medium text-sm text-gray-500 border-b-2 border-transparent  mx-4 lg:mx-5 transition duration-150 ease-in-out"
+                  className="font-medium text-sm text-gray-500 border-b-2 border-transparent    mx-4 lg:mx-5 transition duration-150 ease-in-out"
                   href="#"
                 >
                   <svg
@@ -114,8 +114,8 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  className="font-medium text-sm text-gray-500 border-b-2 border-transparent hover:border-b-white mx-6 pl-5 transition duration-150 ease-in-out"
-                  href="#"
+                  className="font-medium text-sm text-gray-500 border-b-2 border-transparent  mx-6 pl-5 transition duration-150 ease-in-out"
+                  href="https://github.com/Vjfrontend"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -131,7 +131,7 @@ const Header = () => {
               <li>
                 <Link
                   className="font-medium text-sm text-gray-500 border-b-2 border-transparent hover:border-b-white mx-4 pr-10 lg:mx-6 transition duration-150 ease-in-out"
-                  href="#"
+                  href="mailto:victorezeabikwa@gmail.com" 
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

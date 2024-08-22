@@ -26,6 +26,9 @@ function MyWorks() {
   ];
 
   return (
+    <div id='works'>
+
+    
     <div className="container mx-auto max-w-[80%] px-4 py-8 mb-20 ">
       <h1 className="text-3xl font-bold text-center mb-12">Featured ptojects</h1>
       
@@ -35,7 +38,7 @@ function MyWorks() {
         <div className="relative flex flex-col md:flex-row items-center ">
           <div className="w-full md:w-1/2 pr-4">
             <Image
-              className="w-full h-48 md:h-auto rounded-md object-cover object-center"
+              className="w-full h-48 md:h-auto rounded-md object-contain object-center"
               src={infinity}// Replace with your image path
               alt="NFT Collection Website"
             />
@@ -67,7 +70,7 @@ function MyWorks() {
             
             <div className="relative w-full p-2">
               <Image
-                className="w-full h-48 rounded-md object-cover object-center"
+                className="lg:w-full w-64 h-48 rounded-md object-contain object-center"
                 src={project.image}
                 alt={project.title}
                 width={500} // Replace with your desired width
@@ -94,6 +97,7 @@ function MyWorks() {
 
       see more
       </button>
+      </div>
       </div>
   );
 }
