@@ -61,15 +61,17 @@ function MyWorks() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="relative w-full bg-white shadow-lg border-b-8 border-r-8 border-t-2 border-l-2 border-black p-3 rounded-xl  transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:-translate-y-2"
+            className="relative w-full bg-white shadow-lg border-b-8 border-r-8 border-t-2 border-l-2 border-black p-2 rounded-xl  transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:-translate-y-2"
           >
             <div className="absolute top-0 left-0 w-20 h-20 bg-gradient-to-br from-blue-100 to-blue-700 rounded-full transform -translate-x-6 -translate-y-6 rotate-45"></div>
             
-            <div className="relative w-full p-3">
+            <div className="relative w-full p-2">
               <Image
                 className="w-full h-48 rounded-md object-cover object-center"
                 src={project.image}
                 alt={project.title}
+                width={500} // Replace with your desired width
+    height={300}
               />
             </div>
             <div className="px-8 py-3">
@@ -77,7 +79,7 @@ function MyWorks() {
               <p className="text-gray-600">{project.description}</p>
               <div className="mt-4">
               <Link
-                href="#"
+                href={project.link}
                 target='blank'
                 className="inline-flex items-center px-4 py-2 bg-black text-white font-semibold rounded-md shadow-md hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800"
               >

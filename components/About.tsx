@@ -10,7 +10,7 @@ function About() {
     <div className="container mx-auto px-4 py-8">
         <h1 className="flex  justify-center bold text-2xl mb-5 text-blue-500">ABOUT ME</h1>
       <div className="flex flex-col md:flex-row items-center  rounded-lg p-6">
-        <div className="w-80 h-80 rounded-md overflow-hidden  border-black mb-6 md:mb-0 md:mr-6">
+        <div className="w-80 h-80 rounded-md overflow-hidden  border-black mb-6 md:mb-0 md:mr-6 ml-7">
           <Image
             src={pc}
             alt="Profile Picture"
