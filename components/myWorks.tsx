@@ -43,7 +43,7 @@ function MyWorks() {
               alt="NFT Collection Website"
             />
           </div>
-          <div className="w-full md:w-1/2 px-8 py-3">
+          <div className="w-full md:w-1/2  py-3">
             <h2 className="text-xl font-semibold">Infinity Gem</h2>
             <p className="text-gray-600 flex">An Ed-tech platform dedicated to helping early tech talent find the perfect and comfortable foundation in the digital world.  </p>
             <div className="mt-4">

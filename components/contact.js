@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { collection, addDoc } from "firebase/firestore";
-import { database } from "./firebase";
+import { database } from "@/components/firebase";
 // import { toast } from "react-toastify";
 
 const ContactForm = () => {
@@ -16,8 +16,8 @@ const ContactForm = () => {
     e.preventDefault();
     // Validation check
     if (!name || !email || !message || !phone) {
-      toast.error("fill out all fields");
-      alert("Please fill in all fields before submitting.");
+      alert("fill out all fields");
+      // alert("Please fill in all fields before submitting.");
       return;
     }
     try {
@@ -115,7 +115,7 @@ const ContactForm = () => {
                 ></textarea>
               </div>
               <div className="text-end">
-                <button className="bg-black text-white text-center px-4 py-1 rounded hover:bg-gray-100">
+                <button className="bg-black text-white hover:text-white text-center px-4 py-1 rounded hover:bg-blue-500">
                   Send Message
                 </button>
               </div>
