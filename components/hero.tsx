@@ -144,7 +144,7 @@ export default function Home() {
           <Image src={bg} alt="Background Image" />
         </div>
       </div> */}
-      <div className="flex justify-center">
+      <div className="flex justify-center mb-8">
         <Image
           src={pc}
           className="rounded-full w-40 sm:w-60"
