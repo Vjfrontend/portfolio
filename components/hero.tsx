@@ -171,7 +171,7 @@ export default function Home() {
             </a.div>
             <span className="invisible">I'm</span>
           </div>
-          <span className="font-mono">VICTOR EZEABIKWA</span>
+          <span className="font-gaMaamli">VICTOR EZEABIKWA</span>
         </a.h1>
       </header>
       <p className="text-sm md:text-xl lg:text-xl text-gray-500 mb-4 mt-7 md:mb-8 lg:mb-12 flex lg:max-w-[80%] max-w-[90%] mx-auto font-aboreto text-center">
