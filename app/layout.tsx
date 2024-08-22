@@ -50,7 +50,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${cabinet.variable}${aboreto.variable} font-inter antialiased bg-white text-gray-800 tracking-tight`}>
+      <body className={`${inter.variable} ${cabinet.variable}${aboreto.variable} font-inter antialiased bg-gray-100 text-gray-800 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden">
           {children}
           <Analytics mode={'production'} />;

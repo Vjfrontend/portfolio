@@ -135,7 +135,7 @@ export default function Home() {
 
   return (
     <section
-      className="home py-[192px] md:py-[192px]"
+      className="home py-[100px] md:py-[120px]   "
       id="content"
       ref={observedRef}
     >
@@ -171,10 +171,10 @@ export default function Home() {
             </a.div>
             <span className="invisible">I'm</span>
           </div>
-          <span className="font-gaMaamli ">VICTOR EZEABIKWA</span>
+          <span className="font-mono">VICTOR EZEABIKWA</span>
         </a.h1>
       </header>
-      <p className="text-sm md:text-xl lg:text-xl text-gray-500 mb-4 mt-7 md:mb-8 lg:mb-12 flex lg:max-w-[80%] mx-auto font-aboreto text-center">
+      <p className="text-sm md:text-xl lg:text-xl text-gray-500 mb-4 mt-7 md:mb-8 lg:mb-12 flex lg:max-w-[80%] max-w-[90%] mx-auto font-aboreto text-center">
         Are you looking to build an innovative product, feature, or website?
         Look no further! With my extensive experience and proven track record, I
         can help turn your ideas into tangible, successful projects.
@@ -183,36 +183,34 @@ export default function Home() {
         className="flex flex-wrap gap-6 call-to-action-buttons self-center"
         style={layoutReveal(4)}
       >
-        <div className="flex flex-col md:flex-row justify-center mx-auto space-y-4 md:space-y-0 md:space-x-4">
-          <Link
-            className="btn text-white bg-blue-500 hover:bg-blue-600 px-4 py-1 md:px-6 md:py-4 lg:px-8 lg:py-1 shadow-md rounded-md"
-            href="#"
-          >
-            Checkout my work
-          </Link>
-          <Link
-  className="btn text-white bg-black hover:bg-blue-100 hover:text-blue-600 px-4 py-1 md:px-6 md:py-1 lg:px-8 lg:py-1 shadow-md rounded-md"
- href="/template.docx"
-  download
->
-            Resume
-            <svg
-              className="pl-2"
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              fill="#FAFAFA"
-              viewBox="0 0 256 256"
-            >
-              <path d="M240,136v64a16,16,0,0,1-16,16H32a16,16,0,0,1-16-16V136a16,16,0,0,1,16-16H72a8,8,0,0,1,0,16H32v64H224V136H184a8,8,0,0,1,0-16h40A16,16,0,0,1,240,136Zm-117.66-2.34a8,8,0,0,0,11.32,0l48-48a8,8,0,0,0-11.32-11.32L136,108.69V24a8,8,0,0,0-16,0v84.69L85.66,74.34A8,8,0,0,0,74.34,85.66ZM200,168a12,12,0,1,0-12,12A12,12,0,0,0,200,168Z"></path>
-            </svg>
-          </Link>
-        </div>
+       <div className="flex flex-row justify-center mx-auto lg:space-x-10   space-x-4 space-y-0">
+  <Link
+    className="btn text-white bg-blue-500 hover:bg-blue-600 px-4 py-1 md:px-6 md:py-4 lg:px-8 lg:py-1 shadow-md rounded-md"
+    href="#"
+  >
+    Checkout my work
+  </Link>
+  <Link
+    className="btn text-black border-2 border-black hover:bg-blue-100 hover:text-blue-600 px-4 py-1 md:px-6 md:py-1 lg:px-8 lg:py-1 shadow-md rounded-md"
+    href="/template.docx"
+    download
+  >
+    Resume
+    <svg
+      className="pl-2"
+      xmlns="http://www.w3.org/2000/svg"
+      width="32"
+      height="32"
+      fill="#"
+      viewBox="0 0 256 256"
+    >
+      <path d="M240,136v64a16,16,0,0,1-16,16H32a16,16,0,0,1-16-16V136a16,16,0,0,1,16-16H72a8,8,0,0,1,0,16H32v64H224V136H184a8,8,0,0,1,0-16h40A16,16,0,0,1,240,136Zm-117.66-2.34a8,8,0,0,0,11.32,0l48-48a8,8,0,0,0-11.32-11.32L136,108.69V24a8,8,0,0,0-16,0v84.69L85.66,74.34A8,8,0,0,0,74.34,85.66ZM200,168a12,12,0,1,0-12,12A12,12,0,0,0,200,168Z"></path>
+    </svg>
+  </Link>
+</div>
+
       </a.div>
-      <HomeBackground
-        glowBackground={bgLineGlowTrail}
-        revealBackground={bgLineRevealTrail}
-      />
+     
     </section>
   );
 }
