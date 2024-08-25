@@ -110,7 +110,7 @@ export default function Home() {
   </Link>
   <Link
     className="btn text-black border-2 border-black hover:bg-blue-100 hover:text-blue-600 px-4 py-1 md:px-6 md:py-1 lg:px-8 lg:py-1 shadow-md rounded-md"
-    href="/template.docx"
+    href="/VictorEzeabikwaResume (1)"
     download
   >
     Resume
